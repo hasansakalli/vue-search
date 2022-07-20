@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: rgba(145, 22, 154, 0.523);
+  
+}
+
+#cssVueStyle{
+    display: grid;
+
+}
+
+.btnSearch{
+    background-color: rgb(103, 93, 152);
+    color: white;
+}
+.btnDelete{
+    background-color: rgb(153, 13, 29);
+    color: white;
+}
+#zitate{
+    margin-top: 1rem;
+  
+}
+#result{
+    height: 40px;
+    color:black;
+    width:100%;
+    border: 1px solid gray;
+    background-color: rgb(227, 211, 211);
+    padding: 0.4rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+.container{
+    width: 800px;
+}
+.input-group, .list-group-item, .justify-content-between{
+    width:100%
+}
